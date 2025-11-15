@@ -1,0 +1,98 @@
+# -------------------------
+# Python & general artefacts
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# -------------------------
+# Virtual environments
+# -------------------------
+.venv/
+venv/
+env/
+ENV/
+.venv*/
+venv*/
+env*/
+
+# Conda env folders (if any in repo)
+.conda/
+conda_env/
+
+# -------------------------
+# Jupyter notebooks
+# -------------------------
+.ipynb_checkpoints/
+*.ipynb_convert*
+
+# -------------------------
+# IDE / editor junk
+# -------------------------
+.vscode/
+.idea/
+*.code-workspace
+*.iml
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Environment / secrets
+# -------------------------
+.env
+.env.*
+*.secret
+*.key
+
+# -------------------------
+# YOLO / training artefacts
+# -------------------------
+# Ultralytics training runs
+runs/
+
+# Large datasets (keep configs, ignore big files)
+data/raw/
+data/ocr/plates/
+
+# If you want to keep YAML configs under data/yolo, don’t ignore the folder itself,
+# just the heavy stuff inside:
+data/yolo/images/
+data/yolo/labels/
+
+# -------------------------
+# Tesseract / tesstrain artefacts
+# -------------------------
+# Ground-truth and training outputs (regenerate as needed)
+tesstrain/data/
+tesstrain/tessdata_best/
+tesstrain/models/
+tesstrain/*.traineddata
+
+# -------------------------
+# Node / frontend (if you add React/Vite later)
+# -------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+package-lock.json
+
+# Vite / build output
+dist/
+.out/
