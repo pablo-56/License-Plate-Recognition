@@ -64,5 +64,3 @@ Environment: Python 3.12, virtualenv, Ubuntu (but should run anywhere Tesseract 
     }
   ]
 }
-
-🧱 Tech Stack
