@@ -25,14 +25,11 @@ This is not just a toy notebook – it’s a **minimal but realistic LPR backend
 🧱 Tech Stack
 
 Detection: YOLOv8n (Ultralytics) – transfer-learning from COCO, fine-tuned on a license plate dataset (Pascal VOC → YOLO format).
-
 OCR: Tesseract OCR (eng → fine-tuned lpr using tesstrain).
-
 Backend API: FastAPI + Uvicorn.
-
 Data processing: Python, Pillow, PyTorch, pytesseract.
-
 Environment: Python 3.12, virtualenv, Ubuntu (but should run anywhere Tesseract + Python run).
+
 ---
 
 ## 🧠 High-Level Architecture
